@@ -23,10 +23,10 @@ body {
     display: flex;
     justify-content: right;
     list-style: none;
-    margin-top: 25px;
     margin-right: 10px;
     display: inline-block;
-    border-right: 2px;
+    border-spacing: 2px;
+
     
 }
 
