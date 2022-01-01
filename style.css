@@ -9,7 +9,7 @@ body {
 .main{
     position: fixed;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;    
     flex-direction: row;    
     flex-wrap: wrap;
