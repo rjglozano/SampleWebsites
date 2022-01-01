@@ -20,8 +20,8 @@ body {
 }
 
 .nav {
-    position: fixed;
     display: flex;
+    flex-direction: row;
     justify-content: right;
     list-style: none;
     margin-right: 10px;
