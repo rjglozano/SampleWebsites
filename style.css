@@ -25,6 +25,7 @@ body {
     list-style: none;
     margin-top: 25px;
     margin-right: 10px;
+    display: inline-block;
     border-spacing: 2px;
     
     
