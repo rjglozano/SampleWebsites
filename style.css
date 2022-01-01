@@ -19,6 +19,12 @@ body {
     z-index: 1;
 }
 
+.nav {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 10px;
+}
 
 
 
@@ -40,18 +46,18 @@ body {
     background-position: center;
 } */
 
-ul .nav{
+/* ul {
     float: right;
     list-style-type: none;
     margin-top: 25px;
     margin-right: 10px;
-}
+} */
 
 ul li{
     display: inline-block;
 }
 
-ul li a{
+a{
     text-decoration: none;
     color: gray;
     padding: 5px 20px;
@@ -59,12 +65,12 @@ ul li a{
     transition: 0.6s ease;
 }
 
-ul li a:hover{
+a:hover{
     background-color: gray;
     color: red;
 }
 
-.title{
+/* .title{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -75,12 +81,7 @@ ul li a:hover{
     color: gray;
     font-size: 70px;
 
-}
-
-.main {
-    position: fixed;
-
-}
+} */
 
 .problem-area{
     position: relative;
