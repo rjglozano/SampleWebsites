@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
  margin: 0;
  padding: 0;
@@ -47,4 +51,25 @@ ul li a:hover{
     color: gray;
     font-size: 70px;
 
+}
+
+#About{
+    height: 700px;
+    background: gray;
+    display: inline-block;
+    width: 100%;
+}
+
+#Gallery{
+    height: 700px;
+    background: white;
+    display: inline-block;
+    width: 100%;
+}
+
+#Summary{
+    height: 700px;
+    background: gray;
+    display: inline-block;
+    width: 100%;
 }
