@@ -20,11 +20,12 @@ body {
 }
 
 .nav {
-    float: right;
+    display: flex;
+    justify-content: right;
     list-style-type: none;
     margin-top: 25px;
     margin-right: 10px;
-    justify-content: right;
+    
 }
 
 
