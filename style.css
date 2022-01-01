@@ -6,7 +6,7 @@
 }
 
 header{
-    background-image: url(R.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(R.jpg);
     height: 100vh; 
     background-size: cover;
     background-position: center;
@@ -34,4 +34,17 @@ ul li a{
 ul li a:hover{
     background-color: gray;
     color: red;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: gray;
+    font-size: 70px;
+
 }
