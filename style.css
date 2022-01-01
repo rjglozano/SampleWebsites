@@ -9,12 +9,12 @@ html{
   
 }
 
-header{
+/* header{
     background-image: url(R.jpg);
     height: 100vh; 
     background-size: auto;
     background-position: center;
-}
+} */
 
 ul{
     float: right;
@@ -58,23 +58,22 @@ ul li a:hover{
 
 }
 
-/* #About{
-    height: 700px;
-    background: gray;
-    display: inline-block;
+.problem-area{
+    position: relative;
+    background-image: url(R.jpg);
     width: 100%;
+    height: 100vh; 
+    background-repeat: no-repeat;
+
 }
 
-#Gallery{
-    height: 700px;
-    background: white;
-    display: inline-block;
+.about-area, .gallery-area, .summary-area, .reference-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
     width: 100%;
+    height: 700px;
 }
-
-#Summary{
-    height: 700px;
-    background: gray;
-    display: inline-block;
-    width: 100%;
-} */
