@@ -10,7 +10,7 @@ body {
     position: fixed;
     display: flex;
     justify-content: center;
-    align-items: flex-end;    
+    align-items: center;    
     flex-direction: row;    
     flex-wrap: wrap;
     background-color: gray;
@@ -26,10 +26,10 @@ body {
     margin-top: 25px;
     margin-right: 10px;
     display: inline-block;
-
-    
+    border-right: 2px;
     
 }
+
 
 a{
     text-decoration: none;
