@@ -53,6 +53,11 @@ ul li a:hover{
 
 }
 
+.main {
+    position: fixed;
+
+}
+
 /* #About{
     height: 700px;
     background: gray;
