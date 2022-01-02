@@ -99,13 +99,13 @@ a:hover{
 .text-part{
     width: 50%;
     height: 60%
-    color: black;
-    text-align: justify; 
 }
 
 h1 {
     font-size: 50px;
     font-family: Century Gothic;
+    color: black;
+    text-align: justify;
 }
 
 h2 {
@@ -118,6 +118,8 @@ h2 {
 p{
     font-size: 25px;
     line-height: 50px;
+    color: black;
+    text-align: justify;
 }
 
 p2{
@@ -126,6 +128,8 @@ p2{
     float: left;
     margin-right: 10px;
     width: 190%;
+    color: black;
+    text-align: justify;
 }
 
 p3 {
