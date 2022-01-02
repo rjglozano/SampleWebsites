@@ -47,6 +47,7 @@ a:hover{
 .title{
     position: relative;
     top: 100px;
+    left: 50%;
     text-align: center;
 
 }
