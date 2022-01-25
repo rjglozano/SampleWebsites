@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Preparatory Assessment 2: Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="PAA2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+<!-- Navigation Bar-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> UniqFilipino Food</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#demo">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Food">Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recipe">Recipes</a>
+                    </li>
+                </ul>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-light" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+  <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="9"></button>
+        </div>
+        
+        
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <img src="Adobo.jpg" alt="Adobo" class="d-block" style="width:100%" href="#">
+        </div>
+        <div class="carousel-item">
+            <img src="Bulalo.jpg" alt="Bulalo" class="d-block" style="width:100%">
+        </div>
+        <div class="carousel-item">
+            <img src="Chicken%20Inasal.jpg" alt="Chicken Inasal" class="d-block" style="width:100%">
+        </div>
+        <div class="carousel-item">
+            <img src="Crispy%20Pata.jpg" alt="Crispy Pata" class="d-block" style="width: 100%">
+        </div>
+        <div class="carousel-item">
+            <img src="Kansi.jpg" alt="Kansi" class="d-block" style="width: 100%">    
+        </div>
+        <div class="carousel-item">
+            <img src="Kare-kare.jpg" alt="Kare-Kare" class="d-block" style="width: 100%">
+        </div>
+         <div class="carousel-item">
+            <img src="Suman.jpg" alt="Suman" class="d-block" style="width: 100%">    
+        </div>
+        <div class="carousel-item">
+            <img src="Lechon.jpg" alt="Lechon" class="d-block" style="width: 100%">
+        </div>
+        <div class="carousel-item">
+            <img src="Sinigang.jpg" alt="Sinigang" class="d-block" style="width: 100%">
+        </div>
+        <div class="carousel-item"> 
+            <img src="Sisig.jpg" alt="Sisig" class="d-block" style="width: 100%">
+        </div> 
+        
+        
+    </div>
+    
+    <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    
+
+    <!-- Introduction -->
+    <div id="About" class="container-fluid p-5 bg-dark text-white">
+        <h1 class="text-center">A Taste of Filipino Food</h1>
+        <blockquote class="blockquote text-center">
+            <p> Filipino dishes are unique as it draws inspiration from several influences. Our food reflects the Spanish, Japanese, Chinese, Western and Pacific Islander flavors developed during our many years of colonization. Letting each flavor have its own way without having to blend together and yet resulting to dishes that have that salty, sweet and tangy taste. Filipino dishes are very colorful combined with vegetables, seafood, lean meat and many more. It's like having a full and colorful sensory experience with each meal. </p>
+                <footer class="blockquote-footer text-white text-right" >
+                    <a href="https://nanam.co.nz/2018/10/04/what-makes-filipino-cuisine-unique/" class="link-light text-decoration-none">From <kbd>"What makes Filipino Cuisine Unique"</kbd> by Ivan, 2018</a>
+            </footer>
+        </blockquote>
+    </div>
+    
+<!-- Food Names and Description-->
+    
+    <div id="Food" class="container-fluid p-5 bg-light padding">
+    <div class="row padding">
+        <div class="col-md-6">
+            
+            <div class="alert alert-success alert-dismissible fade show">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Try it!</strong> Famous Filipino Adobo.
+            </div>
+            <div class="card">
+                <img src="Adobo.jpg" alt="Adobo" class="rounded" style="display: block; width: 100%; height: auto;">
+                <div class="card-body"> 
+                    <h4 class="card-title"><code>Adobo</code></h4>
+                    <p  class="card-text" style="text-align: justify"> No list of Filipino food would be complete without adobo. This ever-present dish in the Philippines is what balikbayans always miss and is a safe choice to introduce Philippines food to foreigners.
+
+                    The meat (chicken, pork, or lamb) is marinated in vinegar, salt, garlic, pepper, soy sauce and other spices which is a practical way to preserve the food without refrigeration. </p>
+                    
+                     <a href="https://www.thespruceeats.com/filipino-adobo-1328775" class="btn btn-primary">LEARN MORE</a>
+                </div>
+            </div>
+            <br>
+        </div>
+        
+        
+         <div class="col-md-6">
+              <div class="alert alert-success alert-dismissible fade show">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Try it!</strong> Famous Filipino Bulalo.
+            </div>
+             <div class="card">
+                <img src="Bulalo.jpg" alt="Bulalo" class="rounded" style="display: block; width: 100%; height: auto;">
+                <div class="card-body"> 
+                    <h4 class="card-title"><code>Bulalo</code></h4>
+                    <p  class="card-text" style="text-align: justify"> When the weather becomes cooler, Filipinos usually crave a hot stewed meal— bulalo. Bulalo is made by slow-cooking beef shanks and bone marrow. Like sinigang, it also has a mix of vegetables along with the beef. 
+
+                    The most famous place to eat bulalo in the Philippines is Batangas and Tagaytay. Some Filipinos who live in the metro will drive up north just to have that bulalo fix.  </p>
+                    
+                    <a href="https://norecipes.com/bulalo-recipe/" class="btn btn-primary">LEARN MORE</a>
+                </div>
+            </div>
+            <br>
+        </div>
+        
+               <div class="col-md-6">
+            <div class="alert alert-success alert-dismissible fade show">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Try it!</strong> Famous Filipino Chicken Inasal.
+            </div>
+            <div class="card">
+                <img src="Chicken%20Inasal.jpg" alt="Chicken Inasal" class="rounded" style="display: block; width: 100%; height: auto;">
+                <div class="card-body"> 
+                    <h4 class="card-title"><code>Chicken Inasal</code></h4>
+                    <p  class="card-text" style="text-align: justify"> This dish is basically a grilled chicken but this is not the ordinary grilled chicken you’ll see everywhere. If you want to taste the authentic chicken inasal, you should go to Bacolod. It’s where the dish originated. They marinate the chicken soy sauce, vinegar, and different spices that make Bacolod chicken inasal unique. They also use chicken oil to pair with rice. </p>
+                    
+                     <a href="https://panlasangpinoy.com/grilled-chicken-inasal-recipe/" class="btn btn-primary">LEARN MORE</a>
+                </div>
+            </div>
+            <br>
+        </div>
+        
+        
+         <div class="col-md-6">
+            <div class="alert alert-success alert-dismissible fade show">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Try it!</strong> Famous Filipino Crispy Pata.
+            </div>
+             <div class="card">
+                <img src="Crispy%20Pata.jpg" alt="Crispy Pata" class="rounded" style="display: block; width: 100%; height: auto;">
+                <div class="card-body"> 
+                    <h4 class="card-title"><code>Crispy Pata</code></h4>
+                    <p  class="card-text" style="text-align: justify"> Just like lechon, crispy pata is a delicious and must-try Philippines food. Crispy Pata is the pig’s whole leg deep-fried into perfection to achieve the right crispiness. It is served with a soy-vinegar dipping sauce on the side with some chopped up garlic and chilli.</p>
+                    
+                    <a href="https://panlasangpinoy.com/crispy-pata-pulutan-recipe/" class="btn btn-primary">LEARN MORE</a>
+                </div>
+            </div>
+            <br>
+        </div>
+        
+        
+            <div class="col-md-6">
+                <div class="alert alert-success alert-dismissible fade show">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Try it!</strong> Famous Filipino Kansi.
+            </div>
+            <div class="card">
+                <img src="Kansi.jpg" alt="Kansi" class="rounded" style="display: block; width: 100%; height: auto;">
+                <div class="card-body"> 
+                    <h4 class="card-title"><code>Kansi</code></h4>
+                    <p  class="card-text" style="text-align: justify"> If you love sinigang and bulalo, you’ll definitely love Kansi, too! Kansi is an Ilonggo dish which is a combination of sinigang and bulalo. But the sour taste overpowers the soup. The meat is the same as bulalo using beef shank and bone marrow. Kansi is one of the must-try Filipino dishes in the Philippines! </p>
+                    
+                     
+                    <a href="https://panlasangpinoy.com/cansi-recipe-ilonggo-bulalo-and-sinigang-in-one-delicious-soup-dish/" class="btn btn-primary">LEARN MORE</a>
+                </div>
+            </div>
+            <br>
+        </div>
+        
+        
+         <div class="col-md-6">
+             <div class="alert alert-success alert-dismissible fade show">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Try it!</strong> Famous Filipino Kare-Kare.
+            </div>
+             <div class="card">
+                <img src="Kare-kare.jpg" alt="Kare-kare" class="rounded" style="display: block; width: 100%; height: auto;">
+                <div class="card-body"> 
+                    <h4 class="card-title"><code>Kare-kare</code></h4>
+                    <p  class="card-text" style="text-align: justify"> Kare-kare is one of the most favorite Filipino dishes of Pinoys. The stew is made with peanut butter and grounded rice. It has oxtail and mixed vegetables. Kare-kare is best eaten with rice and bagoong (shrimp paste).</p>
+                    
+                      <a href="https://panlasangpinoy.com/kare-kare-recipe/" class="btn btn-primary">LEARN MORE</a>
+                </div>
+            </div>
+            <br>
+        </div>
+        
+            <div class="col-md-6">
+                <div class="alert alert-success alert-dismissible fade show">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Try it!</strong> Famous Filipino Lechon.
+            </div>
+            <div class="card">
+                <img src="Lechon.jpg" alt="Lechon" class="rounded" style="display: block; width: 100%; height: auto;">
+                <div class="card-body"> 
+                    <h4 class="card-title"><code>Lechon</code></h4>
+                    <p  class="card-text" style="text-align: justify">This is a famous Filipino food not just to Pinoys but also to foreigners. Lechon is a whole roasted pig usually served on special occasions. It’s kind of expensive that’s why when you see lechon on an occasion, it must be grand. 
+
+                    What people love about lechon is its crispy skin and juicy meat which is best paired with liver sauce. Anthony Bourdain claimed that this is the best pig ever! He wouldn’t say this for nothing right?
+
+                    The famous Filipino restaurant that serves one of the best lechons is Rico’s Lechon.</p>
+                    
+                     <a href="https://guidetothephilippines.ph/articles/ultimate-guides/philippines-lechon-guide" class="btn btn-primary">LEARN MORE</a>    
+                    
+                </div>
+            </div>
+            <br>
+        </div>
+        
+        
+         <div class="col-md-6">
+             <div class="alert alert-success alert-dismissible fade show">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Try it!</strong> Famous Filipino Sinigang.
+            </div>
+             <div class="card">
+                <img src="Sinigang.jpg" alt="Sinigang" class="rounded" style="display: block; width: 100%; height: auto;">
+                <div class="card-body"> 
+                    <h4 class="card-title"><code>Sinigang</code></h4>
+                    <p  class="card-text" style="text-align: justify"> If we were to describe the taste of Filipino cuisine, it would have to be mostly sour rather than spicy. And sinigang serves you that.
+
+                    This Pinoy classic consists of a delicious broth soured by tamarind, tomatoes, and sometimes, kamias. Aside from the meat, sinigang has different vegetables. Popular variants are pork sinigang, beef sinigang, prawns sinigang.</p>
+                    
+                      <a href="https://www.lutongpinoyrecipe.com/blog/sinigang-the-story-of-a-traditional-dish/" class="btn btn-primary">LEARN MORE</a>   
+                </div>
+            </div>
+            <br>
+        </div>
+        
+        
+            <div class="col-md-6">
+                <div class="alert alert-success alert-dismissible fade show">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Try it!</strong> Famous Filipino Sisig.
+            </div>
+            <div class="card">
+                <img src="Sisig.jpg" alt="Sisig" class="rounded" style="display: block; width: 100%; height: auto;">
+                <div class="card-body"> 
+                    <h4 class="card-title"><code>Sisig</code></h4>
+                    <p  class="card-text" style="text-align: justify">The sisig meat is primarily chopped up parts of the pigs’ face— Filipinos don’t waste anything when it comes to food that’s why no cut of the animal goes to waste. Some sisig recipes have mayonnaise and raw egg to be mixed in while hot and give it a creamier texture. While other sisig recipes don’t have raw egg and are crispier than the usual recipe. This is served sizzling on a hot stone plate and is a favorite pulutan (food that perfectly matches with beer) among Filipinos. 
+
+                    The best Filipino restaurant that serves sisig is Manam. It has several branches in Metro Manila.</p>
+                    
+                    
+                    <a href="https://panlasangpinoy.com/pork-sisig/" class="btn btn-primary">LEARN MORE</a> 
+                </div>
+            </div>
+            <br>
+        </div>
+        
+        
+         <div class="col-md-6">
+             <div class="alert alert-success alert-dismissible fade show">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Try it!</strong> Famous Filipino Suman.
+            </div>
+             <div class="card">
+                <img src="Suman.jpg" alt="Suman" class="rounded" style="display: block; width: 100%; height: auto;">
+                <div class="card-body"> 
+                    <h4 class="card-title"><code>Suman</code></h4>
+                    <p  class="card-text" style="text-align: justify"> Rice cake is one of the most distinct foods in Asia because of our rice-growing agriculture. And when in the Philippines, you’ll see different kinds of rice cakes everywhere and one famous kakanin is the suman. 
+
+                    It is usually cooked in coconut milk and seasoned with a little sugar and salt for flavor, and are typically steamed in banana or palm leaves. It’s a common dessert or snack that can be found in different parts of the Philippines, with different versions using various ingredients. </p>
+                    
+                    
+                    <a href="https://devour.asia/suman-filipino-sticky-rice-cakes/" class="btn btn-primary">LEARN MORE</a> 
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+    </div>
+    
+    
+    <!-- Recipes-->
+    
+    <div id="recipe" class="container-fluid p-5 bg-dark padding">
+        <h3 class="text-white mb-3">Ingredients and Procedure</h3>
+            <div class="row padding">
+                
+        <div class="col-md-3 col-sm-6">
+            <div class="card"  style="width:auto">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" style="width: 100%;height: auto;" src="https://www.youtube.com/embed/Ix5Dnud1bl0" allowfullscreen></iframe>
+                </div>
+                <div class="card-body">
+                    <button type="button" class="btn btn-dark d-grid" data-bs-toggle="modal" data-bs-target="#Adobo" style="width: 100%;height: auto;">
+                        Pork Adobo Recipe  
+                        <span class="badge bg-light text-black"><i class="fa fa-angle-double-up"> </i> Click here <i class="fa fa-angle-double-up">   </i></span>
+                       
+                    </button> 
+                </div>
+            </div>
+            <br>
+            </div>
+        
+        
+        
+        <div class="col-md-6 col-sm-6">
+             <div class="card"  style="width:auto">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" style="width: 100%;height: auto;" src="https://www.youtube.com/embed/mJue4oZeC7Y" allowfullscreen></iframe>
+                </div>
+                 <div class="card-body">
+                    <button type="button" class="btn btn-dark d-grid" data-bs-toggle="modal" data-bs-target="#Bulalo" style="width: 100%;height: auto;">
+                        Bulalo Recipe 
+                        <span class="badge bg-light text-black"><i class="fa fa-angle-double-up"> </i> Click here <i class="fa fa-angle-double-up">   </i></span>
+                
+                    </button>
+                 </div>
+            </div>
+            <br>
+        </div>
+
+                
+        <div class="col-md-3 col-sm-6">
+             <div class="card"  style="width:auto">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" style="width: 100%;height: auto;" src="https://www.youtube.com/embed/cQOL1T_CL48" allowfullscreen></iframe>
+                </div>
+                 <div class="card-body">
+                    <button type="button" class="btn btn-dark d-grid" data-bs-toggle="modal" data-bs-target="#Chicken" style="width: 100%;height: auto;">
+                        Chicken Inasal Recipe 
+                        <span class="badge bg-light text-black"><i class="fa fa-angle-double-up"> </i> Click here <i class="fa fa-angle-double-up">   </i></span>
+                
+                    </button>
+                 </div>
+            </div>
+            <br>
+        </div>       
+                
+            
+        <div class="col-md-3 col-sm-6">
+             <div class="card"  style="width:auto">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" style="width: 100%;height: auto;" src="https://www.youtube.com/embed/_XfpiCUOFZo" allowfullscreen></iframe>
+                </div>
+                 <div class="card-body">
+                    <button type="button" class="btn btn-dark d-grid" data-bs-toggle="modal" data-bs-target="#Crispy" style="width: 100%;height: auto;">
+                         Crispy Pata Recipe 
+                        <span class="badge bg-light text-black"><i class="fa fa-angle-double-up"> </i> Click here <i class="fa fa-angle-double-up">   </i></span>
+                
+                    </button>
+                 </div>
+            </div>
+            <br>
+        </div> 
+                
+                
+        <div class="col-md-3 col-sm-6">
+             <div class="card"  style="width:auto">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" style="width: 100%;height: auto;" src="https://www.youtube.com/embed/NaR4F7S0gB0" allowfullscreen></iframe>
+                </div>
+                 <div class="card-body">
+                    <button type="button" class="btn btn-dark d-grid" data-bs-toggle="modal" data-bs-target="#Kansi" style="width: 100%;height: auto;">
+                         Kansi Recipe 
+                        <span class="badge bg-light text-black"><i class="fa fa-angle-double-up"> </i> Click here <i class="fa fa-angle-double-up">   </i></span>
+                
+                    </button>
+                 </div>
+            </div>
+            <br>
+        </div> 
+                
+                
+        <div class="col-md-3 col-sm-6">
+             <div class="card"  style="width:auto">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" style="width: 100%;height: auto;" src="https://www.youtube.com/embed/kT3ehpeibVs" allowfullscreen></iframe>
+                </div>
+                 <div class="card-body">
+                    <button type="button" class="btn btn-dark d-grid" data-bs-toggle="modal" data-bs-target="#Kare" style="width: 100%;height: auto;">
+                         Kare-Kare Recipe 
+                        <span class="badge bg-light text-black"><i class="fa fa-angle-double-up"> </i> Click here <i class="fa fa-angle-double-up">   </i></span>
+                
+                    </button>
+                 </div>
+            </div>
+            <br>
+        </div>   
+                
+                
+                
+        <div class="col-md-3 col-sm-6">
+             <div class="card"  style="width:auto">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" style="width: 100%;height: auto;" src="https://www.youtube.com/embed/rtvcC7-jt4g" allowfullscreen></iframe>
+                </div>
+                 <div class="card-body">
+                    <button type="button" class="btn btn-dark d-grid" data-bs-toggle="modal" data-bs-target="#Lechon" style="width: 100%;height: auto;">
+                         Lechon Recipe 
+                        <span class="badge bg-light text-black"><i class="fa fa-angle-double-up"> </i> Click here <i class="fa fa-angle-double-up">   </i></span>
+                
+                    </button>
+                 </div>
+            </div>
+            <br>
+        </div>
+                
+                
+        <div class="col-md-3 col-sm-6">
+             <div class="card"  style="width:auto">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" style="width: 100%;height: auto;" src="https://www.youtube.com/embed/t-beBtUZz3E" allowfullscreen></iframe>
+                </div>
+                 <div class="card-body">
+                    <button type="button" class="btn btn-dark d-grid" data-bs-toggle="modal" data-bs-target="#Sinigang" style="width: 100%;height: auto;">
+                           Sinigang Recipe 
+                        <span class="badge bg-light text-black"><i class="fa fa-angle-double-up"> </i> Click here <i class="fa fa-angle-double-up">   </i></span>
+                
+                    </button>
+                 </div>
+            </div>
+            <br>
+        </div> 
+                
+                
+                
+        <div class="col-md-6 col-sm-6">
+             <div class="card"  style="width:auto">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" style="width: 100%;height: auto;" src="https://www.youtube.com/embed/kapD-91ZUH8" allowfullscreen></iframe>
+                </div>
+                 <div class="card-body">
+                    <button type="button" class="btn btn-dark d-grid" data-bs-toggle="modal" data-bs-target="#Sisig" style="width: 100%;height: auto;">
+                           Sisig Recipe 
+                        <span class="badge bg-light text-black"><i class="fa fa-angle-double-up"> </i> Click here <i class="fa fa-angle-double-up">   </i></span>
+                
+                    </button>
+                 </div>
+            </div>
+            <br>
+        </div>
+
+                
+                
+                
+         <div class="col-md-3 col-sm-6">
+             <div class="card"  style="width:auto">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" style="width: 100%;height: auto;" src="https://www.youtube.com/embed/_qf4YHpNsQg" allowfullscreen></iframe>
+                </div>
+                 <div class="card-body">
+                    <button type="button" class="btn btn-dark d-grid" data-bs-toggle="modal" data-bs-target="#Suman" style="width: 100%;height: auto;">
+                           Suman Recipe 
+                        <span class="badge bg-light text-black"><i class="fa fa-angle-double-up"> </i> Click here <i class="fa fa-angle-double-up">   </i></span>
+                
+                    </button>
+                 </div>
+            </div>
+            <br>
+        </div>               
+                
+        </div>   
+    </div>
+        
+
+            <!-- The Modal Adobo-->
+            <div class="modal" id="Adobo">
+                <div class="modal-dialog modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        
+                        <!-- Model Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title"><kbd>Pork Adobo Recipe</kbd></h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        
+                        
+                        <!--Modal Body -->
+                        <div class="modal-body">
+                            <ul class="list-unstyled">
+                                <h1>Ingredients</h1>
+                                    <ul>
+                                        <li>2 lbs pork belly</li>
+                                        <li>2 tablespoons garlic</li>
+                                        <li>5 pieces dried bay leaves</li>
+                                        <li>4 tablespoons vinegar</li>
+                                        <li>1/2 cup of soy sauce</li>
+                                        <li>1 tablespoon peppercorn</li>
+                                        <li>2 cups of water</li>
+                                        <li>Salt to taste</li>
+                                    </ul>
+                            </ul>
+                            
+                            <h1>Procedure/Instruction</h1>
+                            <ol class="list-group list-group-numbered list-group-flush">
+                                <li class="list-group-item">Combine the pork belly, soy sauce, and garlic then marinade for at least 1 hour</li>
+                                <li class="list-group-item">Heat the pot and put-in the marinated pork belly then cook for a few minutes</li>
+                                <li class="list-group-item">Pour remaining marinade including garlic</li>
+                                <li class="list-group-item">Add water, whole pepper corn, and dried bay leaves then bring to a boil. Simmer for 40 minutes to 1 hour</li>
+                                <li class="list-group-item">Put-in the vinegar and simmer for 12 to 15 minutes</li>
+                                <li class="list-group-item">Add salt to taste</li>
+                                <li class="list-group-item">Serve hot. Share and enjoy!</li>
+                            </ol>
+                        </div>
+                        
+                        <!--Modal Footer-->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    
+    
+    
+       <!-- The Modal Bulalo -->
+            <div class="modal" id="Bulalo">
+                <div class="modal-dialog modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        
+                        <!-- Model Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title"><kbd>Bulalo Recipe</kbd></h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        
+                        
+                        <!--Modal Body -->
+                        <div class="modal-body">
+                            <ul class="list-unstyled">
+                                <h1>Ingredients</h1>
+                                    <ul>
+                                        <li>2 lbs beeef shank</li>
+                                        <li>1/2 cabbage <mark>whole leaf individually detached</mark></li>
+                                        <li>1 bundle bok choy</li>
+                                        <li>2 cobs corn each cut into 3 parts</li>
+                                        <li>2 tablespoons whole peppercorn</li>
+                                        <li>1/2 cup green onions <mark>cut into 1 1/2 inch pieces</mark></li>
+                                        <li>1 onion</li>
+                                        <li>34 ounces of water</li>
+                                        <li>fish sauce to taste <mark>optional</mark></li>
+                                    </ul>
+                            </ul>
+                            
+                            <h1>Procedure/Instruction</h1>
+                            <ol class="list-group list-group-numbered list-group-flush">
+                                <li class="list-group-item">In a big cooking pot, pour in water and bring to a boil </li>
+                                <li class="list-group-item">Put-in the beef shank followed by the onion and whole pepper corn then simmer for 1.5 hours (30 mins if using a pressure cooker) or until meat is tender. </li>
+                                <li class="list-group-item">Add the corn and simmer for another 10 minutes </li>
+                                <li class="list-group-item">Add the fish sauce,cabbage, pechay, and green onion (onion leeks)</li>
+                                <li class="list-group-item">Serve hot. Share and Enjoy!</li>
+                            </ol>
+                        </div>
+                        
+                        <!--Modal Footer-->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    
+    
+        
+       <!-- The Modal Chicken Inasal-->
+            <div class="modal" id="Chicken">
+                <div class="modal-dialog modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        
+                        <!-- Model Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title"><kbd>Chicken Inasal Recipe</kbd></h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        
+                        
+                        <!--Modal Body -->
+                        <div class="modal-body">
+                            <ul class="list-unstyled">
+                                <h1>Ingredients</h1>
+                                    <ul>
+                                        <li>2 lbs chicken cut into serving pieces</li>
+                                        <li>2 tablespoons ginger <mark>minced</mark></li>
+                                        <li>3/4 cup lemongrass <mark>chopped</mark></li>
+                                        <li>1 cup coconut vinegar</li>
+                                        <li>1/2 cup lemon or calamansi juice</li>
+                                        <li>1 tablespoon salt</li>
+                                        <li>1/4 cup brown sugar</li>
+                                        <li>1 cup lemon soda <mark>softdrinks</mark></li>
+                                        <li>1/2 tablespoon ground black pepper</li>
+                                        <li>Basting Sauce:</li>
+                                        <li>3 tablespoons annatto oil <mark>atsuete oil</mark></li>
+                                        <li>1/2 cup margarine <mark>softened</mark></li>
+                                        <li>1/4 teaspoon salt</li>
+                                        <li>1 teaspoon lemon or calamansi juice</li>
+                                    </ul>
+                            </ul>
+                            
+                            <h1>Procedure/Instruction</h1>
+                            <ol class="list-group list-group-numbered list-group-flush">
+                                <li class="list-group-item">In a freezer bag or large bowl, combine chicken, lemongrass, salt, ground black pepper, ginger, garlic, brown sugar, vinegar, lemon-lime soda, and lemon juice.</li>
+                                <li class="list-group-item">Stir or shake the mixture until every ingredient is well incorporated. Marinade for 1 to 3 hours. </li>
+                                <li class="list-group-item">In a bowl, combine margarine, annatto oil, salt, and lemon juice then stir. Set aside. </li>
+                                <li class="list-group-item">Grill the chicken while basting generous amount of the margarine mixture.</li>
+                                <li class="list-group-item">Transfer the grilled chicken to a serving plate.</li>
+                                <li class="list-group-item">Serve with sinamak. Share and enjoy!</li>
+                            </ol>
+                        </div>
+                        
+                        <!--Modal Footer-->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    
+    
+      <!-- The Modal Crispy Pata -->
+            <div class="modal" id="Crispy">
+                <div class="modal-dialog modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        
+                        <!-- Model Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title"><kbd>Crispy Pata Recipe</kbd></h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        
+                        
+                        <!--Modal Body -->
+                        <div class="modal-body">
+                            <ul class="list-unstyled">
+                                <h1>Ingredients</h1>
+                                    <ul>
+                                        <li>1 piece whole pig leg cleaned</li>
+                                        <li>6 pieces <mark>dried bay leaves</mark></li>
+                                        <li>2 tablespoons whole peppercorn</li>
+                                        <li>4 pieces <mark>star anise</mark> optional</li>
+                                        <li>6 teaspoons salt</li>
+                                        <li>2 teaspoons ground black pepper</li>
+                                        <li>2 teaspoons garlic powder</li>
+                                        <li>12 cups water</li>
+                                        <li>6 cups cooking oil</li>
+                                    </ul>
+                            </ul>
+                            
+                            <h1>Procedure/Instruction</h1>
+                            <ol class="list-group list-group-numbered list-group-flush">
+                                <li class="list-group-item">Pour water in a cooking pot then let boil.</li>
+                                <li class="list-group-item">Put-in dried bay leaves, whole peppercorn, star anise, and 4 teaspoons of salt. </li>
+                                <li class="list-group-item">Add the whole pig’s legs in the cooking pot then simmer until the leg becomes tender (about 45 to 60 minutes).</li>
+                                <li class="list-group-item">Remove the tender leg from the cooking pot and set aside until the temperature goes down.</li>
+                                <li class="list-group-item">Rub the leg with garlic powder, ground black pepper, and remaining salt. Let stand for 15 minutes to absorb the rub </li>
+                                <li class="list-group-item">Heat a clean large cooking pot (preferably with cover) and pour-in cooking oil.</li>
+                                <li class="list-group-item">When the oil becomes hot, deep fry the rubbed pork leg. Continue cooking in medium heat until one side becomes crispy, and then cautiously flip the leg to crisp the other side. Note: Be extra careful in doing this procedure.</li>
+                                <li class="list-group-item">Turn-off the heat; remove the crispy pork leg; and transfer it to a wide serving plate.</li>
+                                <li class="list-group-item">Serve with atcharang papaya and soy sauce – vinegar dipping sauce.</li>
+                                <li class="list-group-item">Share and enjoy!</li>
+                            </ol>
+                        </div>
+                        
+                        <!--Modal Footer-->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    
+         <!-- The Modal Crispy Kansi -->
+            <div class="modal" id="Kansi">
+                <div class="modal-dialog modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        
+                        <!-- Model Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title"><kbd>Kansi Recipe</kbd></h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        
+                        
+                        <!--Modal Body -->
+                        <div class="modal-body">
+                            <ul class="list-unstyled">
+                                <h1>Ingredients</h1>
+                                    <ul>
+                                        <li>2 lbs. beef shank</li>
+                                        <li>2 stalks lemongrass <mark>tied into knots with thick end crushed</mark></li>
+                                        <li>1 plum tomato <mark>wedged</mark></li>
+                                        <li>3 pieces long green chili <mark>siling pansigang</mark></li>
+                                        <li>3 pieces hot red chili pepper <mark>optional</mark></li>
+                                        <li>7 cloves garlic <mark>crushed</mark></li>
+                                        <li>1 medium yellow onion <mark>wedged</mark></li>
+                                        <li>4 tablespoons annatto oil</li>
+                                        <li>1 beef cube</li>
+                                        <li>2 20g pack Sinigang sa sampaloc mix</li>
+                                        <li>3 cups sliced unripe jackfruit</li>
+                                        <li>8 to 10 cups water</li>
+                                        <li>3 tablespoons fish sauce <mark>patis</mark></li>
+                                    </ul>
+                            </ul>
+                            
+                            <h1>Procedure/Instruction</h1>
+                            <ol class="list-group list-group-numbered list-group-flush">
+                                <li class="list-group-item">Heat Annatto oil in a soup pot or pressure cooker.</li>
+                                <li class="list-group-item">Put the garlic in once the oil gets hot. Cook until the garlic turns light brown.</li>
+                                <li class="list-group-item">Add the beef shank. Cook one side for 30 seconds to one minute. Turn it over to cook the other side for about the same time.</li>
+                                <li class="list-group-item">Pour water. Let boil.</li>
+                                <li class="list-group-item">Add the onion, tomato, and beef cube. Stir.</li>
+                                <li class="list-group-item">Add the lemongrass. Cover the pressure cooker and cook for 30 minutes. Note: if using a regular soup pot, cook the beef in low heat for 2 to 3 hours. Add more water if needed.</li>
+                                <li class="list-group-item">Safely remove the cover of the pressure cooker. Apply heat and bring the mixture to a boil.</li>
+                                <li class="list-group-item">Stir-in the jackfruit and cook for 5 minutes.</li>
+                                <li class="list-group-item">Add the peppers. Cook for 2 to 3 minutes.</li>
+                                <li class="list-group-item">Pour the contents of the sinigang mix package. Stir. Add fish sauce. Cook for 3 to 5 minutes.</li>
+                                <li class="list-group-item">Transfer to a serving bowl. Serve.</li>
+                                <li class="list-group-item">Share and enjoy!</li>
+                            </ol>
+                        </div>
+                        
+                        <!--Modal Footer-->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    
+          <!-- The Modal Kare-Kare -->
+            <div class="modal" id="Kare">
+                <div class="modal-dialog modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        
+                        <!-- Model Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title"><kbd>Kare-Kare Recipe</kbd></h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        
+                        
+                        <!--Modal Body -->
+                        <div class="modal-body">
+                            <ul class="list-unstyled">
+                                <h1>Ingredients</h1>
+                                    <ul>
+                                        <li>3 lbs oxtail <mark>cut in 2 inch slices you an also use tripe or beef slices</mark></li>
+                                        <li>1 piece small banana flower bud <mark>sliced</mark></li>
+                                        <li>1 bundle pechay or bok choy</li>
+                                        <li>1 bundle string beans <mark>cut into 2 inch slices</mark></li>
+                                        <li>4 pieces eggplants <mark>sliced</mark></li>
+                                        <li>1 cup ground peanuts</li>
+                                        <li>1/2 cup peanut butter</li>
+                                        <li>1/2 cup shrimp paste</li>
+                                        <li>34 Ounces water <mark>about 1 Liter</mark></li>
+                                        <li>1/2 cup annatto seeds <mark>soaked in a cup of water</mark></li>
+                                        <li>1/2 cup toasted ground rice</li>
+                                        <li>1 piece onion <mark>chopped</mark></li>
+                                        <li>salt and pepper</li>
+                                    </ul>
+                            </ul>
+                            
+                            <h1>Procedure/Instruction</h1>
+                            <ol class="list-group list-group-numbered list-group-flush">
+                                <li class="list-group-item">In a large pot, bring the water to a boil. </li>
+                                <li class="list-group-item">Put in the oxtail followed by the onions and simmer for 2.5 to 3 hrs or until tender (35 minutes if using a pressure cooker). </li>
+                                <li class="list-group-item">Once the meat is tender, add the ground peanuts, peanut butter, and coloring (water from the annatto seed mixture) and simmer for 5 to 7 minutes.</li>
+                                <li class="list-group-item">Add the toasted ground rice and simmer for 5 minutes. </li>
+                                <li class="list-group-item">On a separate pan, saute the garlic then add the banana flower, eggplant, and string beans and cook for 5 minutes. </li>
+                                <li class="list-group-item">Transfer the cooked vegetables to the large pot (where the rest of the ingredients are). </li>
+                                <li class="list-group-item">Add salt and pepper to taste. </li>
+                                <li class="list-group-item">Serve hot with shrimp paste. Enjoy!</li>
+                            </ol>
+                        </div>
+                        
+                        <!--Modal Footer-->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    
+    
+          <!-- The Modal Lechon -->
+            <div class="modal" id="Lechon">
+                <div class="modal-dialog modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        
+                        <!-- Model Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title"><kbd>Lechon Belly Roll Recipe</kbd></h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        
+                        
+                        <!--Modal Body -->
+                        <div class="modal-body">
+                            <ul class="list-unstyled">
+                                <h1>Ingredients</h1>
+                                    <ul>
+                                        <li>5 lbs. pork belly <mark>whole slab</mark></li>
+                                        <li>6 tablespoons Knorr SavorRich Pork Seasoning</li>
+                                        <li>1/2 cup soy sauce</li>
+                                        <li>1 piece onion</li>
+                                        <li>3 heads garlic</li>
+                                        <li>2 bunches scallions</li>
+                                        <li>3 stalks lemongrass</li>
+                                        <li>1/2 cup cooking oil</li>
+                                    </ul>
+                                <h1>Spicy Vinegar Dip:</h1>
+                                    <ul>
+                                        <li>1 cup white vinegar</li>
+                                        <li>2 tablespoons soy sauce</li>
+                                        <li>1 piece red onion <mark>chopped</mark></li>
+                                        <li>6 cloves garlic <mark>crushed and chopped</mark></li>
+                                        <li>1/2 teaspoon white sugar</li>
+                                        <li>1 tablespoon whole peppercorn</li>
+                                        <li>6 pieces Thai chili <mark>chopped</mark></li>
+                                    </ul>
+                            </ul>
+                            
+                            <h1>Procedure/Instruction</h1>
+                            <ol class="list-group list-group-numbered list-group-flush">
+                                <li class="list-group-item">Rub 5 tablespoons Knorr SavorRich on the meat part of the pork. Spread evenly. Turn the pork over and rub the remaining SavorRich and soy sauce on the skin of the pork. Let it marinate for 30 minutes. </li>
+                                <li class="list-group-item">Preheat oven to 350F. </li>
+                                <li class="list-group-item">Chop the scallion, onion, and garlic. Crush the lemon grass and slice into pieces. Place all the garlic and onion over the belly. Add scallion and lemongrass. Roll the belly and secure by tying kitchen twine.</li>
+                                <li class="list-group-item">Rub oil all over the belly roll. Pour 4 cups of water in a roasting pan and put remaining scallions and lemongrass. Arrange a roasting rack over the pan and place the rolled belly on the rack. Roast for 1 hour. </li>
+                                <li class="list-group-item">Prepare the basting sauce by combining 2 tablespoons soy sauce and ¼ cup oil. Mix well. Brush all over the pork.</li>
+                                <li class="list-group-item">Increase the heat to 360F. Continue to roast for another hour. Note: add more water on the pan if needed.</li>
+                                <li class="list-group-item">Increase the heat to 370F. Brush with basting sauce. Roast for 1 hour more. </li>
+                                <li class="list-group-item">Increase heat to 400F. Continue to roast until the skin gets very crispy. Remove from the oven and let the pork belly cool down.</li>
+                                <li class="list-group-item">Make the dipping sauce by combining all the sauce ingredients as listed above. Microwave for 30 seconds. </li>
+                                <li class="list-group-item">Remove the twine from the belly roll and chop into serving pieces. Serve with spicy vinegar dip.</li>
+                                <li class="list-group-item">Share and enjoy! </li>
+                            </ol>
+                        </div>
+                        
+                        <!--Modal Footer-->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    
+        
+          <!-- The Modal Sinigang -->
+            <div class="modal" id="Sinigang">
+                <div class="modal-dialog modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        
+                        <!-- Model Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title"><kbd>Sinigang Recipe</kbd></h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        
+                        
+                        <!--Modal Body -->
+                        <div class="modal-body">
+                            <ul class="list-unstyled">
+                                <h1>Ingredients</h1>
+                                    <ul>
+                                        <li>2 lbs pork belly <mark>or buto-buto</mark></li>
+                                        <li>1 bunch spinach <mark>or kang-kong</mark></li>
+                                        <li>3 tablespoons fish sauce</li>
+                                        <li>12 pieces string beans<mark>sitaw, cut in 2 inch length</mark></li>
+                                        <li>2 pieces tomato <mark>quartered</mark></li>
+                                        <li>3 pieces chili <mark>or banana pepper</mark></li>
+                                        <li>1 tablespoons cooking oil</li>
+                                        <li>2 quarts water</li>
+                                        <li>1 piece onion <mark>sliced</mark> </li>
+                                        <li>2 pieces taro <mark>gabi, quartered</mark></li>
+                                        <li>1 pack sinigang mix <mark>good for 2 liters water</mark></li>
+                                    </ul>
+                            </ul>
+                            
+                            <h1>Procedure/Instruction</h1>
+                            <ol class="list-group list-group-numbered list-group-flush">
+                                <li class="list-group-item">Heat the pot and put-in the cooking oil. </li>
+                                <li class="list-group-item">Sauté the onion until its layers separate from each other. </li>
+                                <li class="list-group-item">Add the pork belly and cook until outer part turns light brown. </li>
+                                <li class="list-group-item">Put-in the fish sauce and mix with the ingredients. </li>
+                                <li class="list-group-item">Pour the water and bring to a boil. </li>
+                                <li class="list-group-item">Add the taro and tomatoes then simmer for 40 minutes or until pork is tender. </li>
+                                <li class="list-group-item">Put-in the sinigang mix and chili. </li>
+                                <li class="list-group-item">Add the string beans (and other vegetables if there are any) and simmer for 5 to 8 minutes. </li>
+                                <li class="list-group-item">Put-in the spinach, turn off the heat, and cover the pot. Let the spinach cook using the remaining heat in the pot.</li>
+                                <li class="list-group-item">Serve hot. Share and enjoy!</li>
+                            </ol>
+                        </div>
+                        
+                        <!--Modal Footer-->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    
+    
+         <!-- The Modal Sisig -->
+            <div class="modal" id="Sisig">
+                <div class="modal-dialog modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        
+                        <!-- Model Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title"><kbd>Sinigang Recipe</kbd></h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        
+                        
+                        <!--Modal Body -->
+                        <div class="modal-body">
+                            <ul class="list-unstyled">
+                                <h1>Ingredients</h1>
+                                    <ul>
+                                        <li>1 lb. pig ears</li>
+                                        <li>1 1/2 lb pork belly</li>
+                                        <li>1 piece onion <mark>minced</mark></li>
+                                        <li>3 tablespoons soy sauce</li>
+                                        <li>1/4 teaspoon ground black pepper</li>
+                                        <li>1 knob ginger <mark>minced (optional)</mark></li>
+                                        <li>3 tablespoons chili flakes</li>
+                                        <li>1/2 teaspoon garlic powder</li>
+                                        <li>1/2 teaspoon garlic powder<mark>or 3 to 5 pieces calamansi</mark> </li>
+                                        <li>1/2 cup butter <mark>or margarine</mark></li>
+                                        <li>1/4 lb chicken liver</li>
+                                        <li>6 cups water</li>
+                                        <li>3 tablespoons mayonnaise</li>
+                                        <li>1/2 teaspoon salt</li>
+                                        <li>1 piece egg<mark>optional</mark></li>
+                                    </ul>
+                            </ul>
+                            
+                            <h1>Procedure/Instruction</h1>
+                            <ol class="list-group list-group-numbered list-group-flush">
+                                <li class="list-group-item">Pour the water in a pan and bring to a boil Add salt and pepper. </li>
+                                <li class="list-group-item">Put-in the pig’s ears and pork belly then simmer for 40 minutes to 1 hour (or until tender). </li>
+                                <li class="list-group-item">Remove the boiled ingredients from the pot then drain excess water. </li>
+                                <li class="list-group-item">Grill the boiled pig ears and pork belly until done. </li>
+                                <li class="list-group-item">Chop the pig ears and pork belly into fine pieces. </li>
+                                <li class="list-group-item">In a wide pan, melt the butter or margarine. Add the onions. Cook until onions are soft. </li>
+                                <li class="list-group-item">Put-in the ginger and cook for 2 minutes. </li>
+                                <li class="list-group-item">Add the chicken liver. Crush the chicken liver while cooking it in the pan. </li>
+                                <li class="list-group-item">Add the chopped pig ears and pork belly. Cook for 10 to 12 minutes</li>
+                                <li class="list-group-item">Put-in the soy sauce, garlic powder, and chili. Mix well.</li>
+                                <li class="list-group-item">Add salt and pepper to taste.</li>
+                                <li class="list-group-item">Put-in the mayonnaise and mix with the other ingredients.</li>
+                                <li class="list-group-item">Transfer to a serving plate. Top with chopped green onions and raw egg.</li>
+                                <li class="list-group-item">Serve hot. Share and Enjoy (add the lemon or calamansi before eating).</li>
+                            </ol>
+                        </div>
+                        
+                        <!--Modal Footer-->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    
+    
+     
+         <!-- The Modal Suman -->
+            <div class="modal" id="Suman">
+                <div class="modal-dialog modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        
+                        <!-- Model Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title"><kbd>Suman Recipe</kbd> </h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        
+                        
+                        <!--Modal Body -->
+                        <div class="modal-body">
+                            <ul class="list-unstyled">
+                                <h1>Ingredients </h1>
+                                    <ul>
+                                        <li>2 1/4 cups glutinous rice</li>
+                                        <li>1 teaspoon lye water</li>
+                                        <li>2 cups water</li>
+                                        <li>1 whole banana leaf <mark>cleaned</mark></li>
+                                    </ul>
+                            </ul>
+                            
+                            <h1>Procedure/Instruction</h1>
+                            <ol class="list-group list-group-numbered list-group-flush">
+                                <li class="list-group-item">Place the glutinous rice in a mixing bowl then pour-in water. Stir and soak for 2 to 3 hours. </li>
+                                <li class="list-group-item">Drain excess water from the mixing bowl then add lye water and stir thoroughly. The mixture will turn yellowish. Let stand for 30 minutes. Note: do not go beyond the recommended measurement for lye water.</li>
+                                <li class="list-group-item">Prepare the banana leaves. Note: Fresh banana leaves can be heated directly in fire for a very short time. This releases the natural aroma of the leaf and makes it more flexible. If you are using fresh frozen banana leaves, it is better to just wash it in warm water. You’ll need a pair of leaves per serving. The bigger leaf should measure about 12 by 10 inches while the smaller is 4 by 5 inches. </li>
+                                <li class="list-group-item">Arrange the banana leaves by placing the larger leaf first in a flat surface then put the smaller leaf in the center of the larger leaf. </li>
+                                <li class="list-group-item">Scoop about 1/4 cup of the rice mixture and place it over the smaller leaf. </li>
+                                <li class="list-group-item">Fold the leaf to secure the rice mixture (see video for procedure) and tie with a kitchen twine. </li>
+                                <li class="list-group-item">Arrange the folded banana leaves with rice mixture in a cooking pot then pour-in enough water.</li>
+                                <li class="list-group-item">Turn-on heat then let boil. Simmer for 80 minutes.</li>
+                                <li class="list-group-item">Turn-off heat and transfer the banana leaf covered rice cake on a serving dish.</li>
+                                <li class="list-group-item">Serve with white sugar, brown sugar, or latik.</li>
+                                <li class="list-group-item">Share and enjoy!</li>
+                            </ol>
+                        </div>
+                        
+                        <!--Modal Footer-->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    
+      
+    <div id="About" class="container-fluid p-5 bg-white text-dark">
+        <h3>Please log-in to your Account</h3>
+    <form action="/action_page.php" class="was-validated">
+        <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <div class="mb-3">
+            <label for="pwd" class="form-label">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        
+        <div class="form-check mb-3">
+            <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="remember" required> Remember me
+            </label>
+        </div>
+        
+        <label for="comment">Comments:</label>
+        <textarea class="form-control" rows="5" id="comment" name="text" required></textarea>
+        
+        <br>
+        <label for="customRange" class="form-label">Rate This Page</label>
+        <input type="range" class="form-range" id="customRange" name="points">
+        <a href="PAA2.html" class="btn btn-primary">SUBMIT</a>
+        <br>
+        
+    </form>
+           
+    </div>
+ 
+    
+    
+    
+    <div id="About" class="container-fluid p-5 bg-dark text-white">
+        <h1 class="text-center">References</h1>
+            <p class="text-white text-center"> Fernando, C. (2020). A Taste of Filipino Food: 10 Pinoy Dishes That Will Have You Drooling. Retrieved Januarry 18, 2022 from https://www.zenrooms.com/blog/post/filipino-food/ </p>
+            <p class="text-white text-center"> Panlasang Pinoy (2021). Panlasang Pinoy. Retrieved Januarry 18, 2022 from https://panlasangpinoy.com/ </p>
+           
+    </div>
+ 
+    
+    
+</body>
