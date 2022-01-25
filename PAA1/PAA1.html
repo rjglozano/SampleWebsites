@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: 19% 41% 13% 13%, 0;
+        background-color: gray;
+        padding: 10px;
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        font-size: 30px;
+        text-align: center;
+        padding: 2px;
+    }
+    
+    .overlay {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: white;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+    }
+
+    .container:hover .overlay {
+        bottom: 0;
+        height: 100%;
+    }
+    
+    .container {
+        position: relative;
+        width: 96%;
+        margin-left: 10px;
+    }
+    
+    .text {
+        
+        color: black;
+        font-size: 20px;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+ 
+    }
+
+    .image {
+        display: block;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width:auto;
+    
+    }
+    
+    h3{
+        font-size: 70px;
+        margin-bottom: 10px;
+        margin-top: 5%;
+    }
+    
+    p3{
+        font-size: 15px;
+        line-height: 20px;
+        width: 50%;
+
+    }
+</style>
+    <title>How the Spaniards Colonized the Philippines</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+<body>
+    <header>
+        <div class="main">
+            <ul class = "nav"> 
+                <li> <a href="#home"> Home </a></li>
+                <li> <a href="#about"> About </a></li>
+                <li> <a href="#video"> Videos </a></li>
+                <li> <a href="#early"> Code Breaker </a></li>
+                <li> <a href="#gallery"> Gallery </a></li>
+                <li> <a href="#reference"> Reference</a></li>
+            </ul>   
+        </div>
+
+        <div class="problem-area" id="home">
+            <div class="text-part">
+                <div class="title">
+                    <h1> The Biography of Alan Turing </h1>
+                </div>
+            </div>
+        </div>
+        <div class="about-area" id="about">
+            <div class="text-part">
+                <h1> Who was Alan Turing?</h1>
+                <p> <span style="background-color: beige">Alan Turing was a brilliant British mathematician who took a leading role in breaking Nazi ciphers during WWII</span>.  In his seminal 1936 paper, he proved that there cannot exist any universal algorithmic method of determining truth in mathematics, and that mathematics will always contain undecidable propositions.<span style="background-color: beige"> His work is widely acknowledged as foundational research of computer science and artificial intelligence. </span></p>
+                <h1>Early Life</h1>
+                <p><span style="background-color: beige">English scientist Alan Turing was born Alan Mathison Turing on June 23, 1912, in Maida Vale, London, England</span>. At a young age, he displayed signs of high intelligence, which some of his teachers recognized, but did not necessarily respect. When Turing attended the well-known independent Sherborne School at the age of 13, he became particularly interested in math and science. </p>
+
+                <p2>After Sherborne, Turing enrolled at King's College (University of Cambridge) in Cambridge, England, studying there from 1931 to 1934. <span style="background-color: beige"> As a result of his dissertation, in which he proved the central limit theorem, Turing was elected a fellow at the school upon his graduation</span>.
+                In 1936, Turing delivered a paper, "On Computable Numbers, with an Application to the Entscheidungsproblem," in which he presented the notion of a universal machine (later called the “Universal Turing Machine," and then the "Turing machine") capable of computing anything that is computable: It is considered the precursor to the modern computer.
+
+                <span style="background-color: beige">Over the next two years, Turing studied mathematics and cryptology at the Institute for Advanced Study in Princeton, New Jersey. After receiving his Ph.D. from Princeton University in 1938, he returned to Cambridge, and then took a part-time position with the Government Code and Cypher School, a British code-breaking organization</span>. </p2>
+              
+                
+            </div>
+             <div class="profile">
+                <img src="Alan-Turing.jpg" alt="Alan Turing">
+            </div>
+            
+            
+        </div>
+        <div class="video-area" id="video">
+                <h2>Videos About Alan Turing</h2>
+                <div class="polaroid">
+                    <iframe width="420" height="345" src="https://www.youtube.com/embed/gtRLmL70TH0"></iframe>
+                    <div class=container>
+                        <p> Alan Turing - Celebrating the life of a genius</p>
+                    </div>
+                </div>
+            
+            <div class="polaroid">
+                  <iframe width="420" height="345" src="https://www.youtube.com/embed/7TycxwFmdB0"></iframe>
+                    <div class=container>
+                        <p> Alan Turing: Crash Course Computer Science #15</p>
+                    </div>
+                </div>
+            
+            <div class="polaroid">
+                  <iframe width="420" height="345" src="https://www.youtube.com/embed/36Ykw1l_KWs"></iframe>
+                    <div class=container>
+                        <p> Alan Turing's Pilot Ace computer - the world's first general purpose computer</p>
+                    </div>
+                </div>
+            
+        
+            </div>
+
+        
+        <div class="early-area" id="early">
+            <div class="text-part">
+                <h1> Cryptanalysis and Early Computer</h1>
+                <p> <span style="background-color: beige">During World War II, Turing was a leading participant in wartime code-breaking, particularly that of German ciphers</span>. He worked at Bletchley Park, the GCCS wartime station, where he made five major advances in the field of cryptanalysis, including specifying the bombe, an electromechanical device used to help decipher German Enigma encrypted signals. 
+                
+                Turing’s contributions to the code-breaking process didn’t stop there: <span style="background-color: beige"> He also wrote two papers about mathematical approaches to code-breaking, which became such important assets to the Code and Cypher School (later known as the Government Communications Headquarters) that the GCHQ waited until April 2012 to release them to the National Archives of the United Kingdom</span>.</p>
+                
+                <p2>Turing moved to London in the mid-1940s, and began working for the National Physical Laboratory. Among his most notable contributions while working at the facility, <span style="background-color: beige">Turing led the design work for the Automatic Computing Engine and ultimately created a groundbreaking blueprint for store-program computers </span>. Though a complete version of the ACE was never built, its concept has been used as a model by tech corporations worldwide for several years, influencing the design of the English Electric DEUCE and the American Bendix G-15 — credited by many in the tech industry as the world’s first personal computer — among other computer models.
+
+                <span style="background-color: beige">Turing went on to hold high-ranking positions in the mathematics department and later the computing laboratory at the University of Manchester in the late 1940s. He first addressed the issue of artificial intelligence in his 1950 paper, "Computing machinery and intelligence," and proposed an experiment known as the “Turing Test” — an effort to create an intelligence design standard for the tech industry</span>. Over the past several decades, the test has significantly influenced debates over artificial intelligence.</p2>
+                
+                
+                </div>
+            
+            <div>
+                <div class="profile1">
+                    <img src="first.jpg" alt="First Computer">
+                 </div>
+                
+                <p style="text-align: center"> Alan Turing's Famous WWII Code Breaker</p>
+            </div>
+             
+            
+                
+            </div>
+        <div class="picture-area" id="gallery">
+            <h3> Gallery about Alan Turing</h3>
+            <div class="grid-container">
+              <div class="grid-item">
+                  <div class="container">
+                  <img src="medTuring_Bus.jpg" alt="bus" class="image">
+                  <div class="overlay">
+                    <div class="text"> Turing mounting a bus with members of the Walton Athletic Club in 1946</div>
+                        </div>
+                    </div>
+                  
+                  <div> <p3>Alan Turing was a pioneering mathematician widely considered to be the father of modern computer science.</p3></div>
+                </div>
+              <div class="grid-item">
+                <div class="container">
+                  <img src="house.jpg" alt="house" class="image">
+                  <div class="overlay">
+                    <div class="text"> Ivy House, Hampton, Turing's home from 1945 to 1947</div>
+                        </div>
+                    </div>
+                  <div> <p3>
+                      His revolutionary idea was to create a machine that would turn thought processes into numbers. The machine would read a series of ones and zeros from a tape which described the steps needed to solve a problem or task. It took nine years for technology to advance to the point where a machine could be built to test his ideas - and it worked. Today all the digital computers that we use work on this same principle.
+                      
+                      Turing believed that an intelligent machine could be created by following the blueprints of the human brain. His landmark paper of 1950 described the Turing Test for determining an intelligent machine. The test consisted of a person asking questions via a keybord to both another person and an intelligent machine. If the computer's answers could not be distinguished from those of the person after a reasonable amount of time then the machine has some intelligence.</p3></div>
+                </div>
+              <div class="grid-item">
+                <div class="container">
+                  <img src="medTuring_Enigma.jpg" alt="" class="image">
+                  <div class="overlay">
+                    <div class="text"> A German Enigma machine </div>
+                        </div>
+                    </div>
+                  <div><p3>He joined the Government Code & Cipher School at Bletchley Park in 1939, where he worked on breaking the German Navy Enigma code. A brilliant mathematician, he was very successful at this, though eccentric. In November 1942 he went to the USA to assist the American code breakers.</p3></div>
+                </div>
+        
+                
+              <div class="grid-item">
+                <div class="container">
+                  <img src="medTuring_Plaque.jpg" alt="plaque" class="image">
+                  <div class="overlay">
+                    <div class="text"> The Blue Plaque on Ivy House </div>
+                        </div>
+                    </div>
+                  <div> <p3>After 1945 he helped build one of the world's first computers. He was made a Fellow of the Royal Society in 1951.
+
+                      He lived at Ivy House in the High Street, Hampton between 1945 and 1947 while working at the National Physical Laboratory in Teddington. There is a Blue Plaque on Ivy House recording his time there.
+
+                      He died in 1954 after eating an apple coated with cyanide.</p3></div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="reference-area" id="reference">
+            <h3>References</h3>
+           <div>
+               <div> <p>http://www.twickenham-museum.org.uk/detail.php?aid=66&ctid=1&cid=13 </p> </div>
+            <div> <p> https://www.biography.com/scientist/alan-turing</p></div> 
+               
+             
+            </div>
+        </div>
+    </header>
+</body>
+</html>
