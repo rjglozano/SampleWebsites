@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
+
+.navbar-brand, h3{
+    font-family: 'Playfair Display', serif;
+}
+
+.nav-link{
+    color: white;
+}
+
+.col-md-8 .text-justify{
+    border: 1px solid white;
+    padding: 10px;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Flip, #flip, #Fade, #Hide, #Animate, #animate, #T1, #T2 {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#Flip {
+    padding: 50px;
+    display: none;
+}
+
+ #train {
+     position: relative;
+     cursor: pointer;
+      
+    }
+#draggable { 
+
+    width: 150px; height: 150px; padding: 0.5em;
+}
