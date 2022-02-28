@@ -44,15 +44,28 @@ $("button").click(function(){
 });
 
   
-  $(function(){
-  $("#datepicker").datepicker();
-      
+$('#calendar').datepicker({
+inline: true,
+firstDay: 1,
+showOtherMonths: true,
+dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 });
   
-//     $( function() {
-//    $( "#draggable" ).draggable();
-//  } );
-//    
+  $( function() {
+  $( "input" ).checkboxradio();
+} );
+  
+  $("#myInput").on("keyup", function() {
+  var value = $(this).val().toLowerCase();
+  $("#myTable tr").filter(function() {
+    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+  });
+});
+  
+  $('.click').click(function(){
+      $('#modal').show();
+      $('#modal').draggable();   
+  });
 });
 
 
